@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B65036661E82A3F900BE77D1 /* TimeSlowerDataBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B650365C1E82A3F800BE77D1 /* TimeSlowerDataBase.framework */; };
-		B650366B1E82A3F900BE77D1 /* TimeSlowerDataBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650366A1E82A3F900BE77D1 /* TimeSlowerDataBaseTests.swift */; };
+		B650366B1E82A3F900BE77D1 /* BaseCoreDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650366A1E82A3F900BE77D1 /* BaseCoreDataTest.swift */; };
 		B650366D1E82A3F900BE77D1 /* TimeSlowerDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B650365F1E82A3F800BE77D1 /* TimeSlowerDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65036781E82A40700BE77D1 /* TimeSlower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65036761E82A40700BE77D1 /* TimeSlower.xcdatamodeld */; };
+		B650367E1E82A56E00BE77D1 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650367D1E82A56E00BE77D1 /* Activity.swift */; };
+		B65036811E82A78400BE77D1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65036801E82A78400BE77D1 /* CoreDataStack.swift */; };
+		B65036831E82AE3400BE77D1 /* Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65036821E82AE3400BE77D1 /* Managed.swift */; };
+		B65036851E82B6DA00BE77D1 /* NSManagedObjectContext+Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65036841E82B6DA00BE77D1 /* NSManagedObjectContext+Changes.swift */; };
+		B650368E1E83F50D00BE77D1 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650368D1E83F50D00BE77D1 /* DataStore.swift */; };
+		B65036901E83FB6600BE77D1 /* ManagedObjectObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B650368F1E83FB6600BE77D1 /* ManagedObjectObserver.swift */; };
+		B65036921E8401B500BE77D1 /* NSManagedObjectContext+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65036911E8401B500BE77D1 /* NSManagedObjectContext+Notifications.swift */; };
+		B65036941E84025900BE77D1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65036931E84025900BE77D1 /* Utilities.swift */; };
+		B65036A11E84658800BE77D1 /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65036A01E84658800BE77D1 /* ActivityType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +37,18 @@
 		B650365F1E82A3F800BE77D1 /* TimeSlowerDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeSlowerDataBase.h; sourceTree = "<group>"; };
 		B65036601E82A3F800BE77D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B65036651E82A3F900BE77D1 /* TimeSlowerDataBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSlowerDataBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B650366A1E82A3F900BE77D1 /* TimeSlowerDataBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlowerDataBaseTests.swift; sourceTree = "<group>"; };
+		B650366A1E82A3F900BE77D1 /* BaseCoreDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoreDataTest.swift; sourceTree = "<group>"; };
 		B650366C1E82A3F900BE77D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65036771E82A40700BE77D1 /* TimeSlower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeSlower.xcdatamodel; sourceTree = "<group>"; };
+		B650367D1E82A56E00BE77D1 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		B65036801E82A78400BE77D1 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B65036821E82AE3400BE77D1 /* Managed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Managed.swift; sourceTree = "<group>"; };
+		B65036841E82B6DA00BE77D1 /* NSManagedObjectContext+Changes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Changes.swift"; sourceTree = "<group>"; };
+		B650368D1E83F50D00BE77D1 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		B650368F1E83FB6600BE77D1 /* ManagedObjectObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectObserver.swift; sourceTree = "<group>"; };
+		B65036911E8401B500BE77D1 /* NSManagedObjectContext+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Notifications.swift"; sourceTree = "<group>"; };
+		B65036931E84025900BE77D1 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B65036A01E84658800BE77D1 /* ActivityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +92,14 @@
 			isa = PBXGroup;
 			children = (
 				B650365F1E82A3F800BE77D1 /* TimeSlowerDataBase.h */,
+				B65036761E82A40700BE77D1 /* TimeSlower.xcdatamodeld */,
+				B65036801E82A78400BE77D1 /* CoreDataStack.swift */,
+				B650368D1E83F50D00BE77D1 /* DataStore.swift */,
+				B65036821E82AE3400BE77D1 /* Managed.swift */,
+				B65036951E84027D00BE77D1 /* NSManagedObjectContext */,
+				B650368F1E83FB6600BE77D1 /* ManagedObjectObserver.swift */,
+				B65036931E84025900BE77D1 /* Utilities.swift */,
+				B650367F1E82A76F00BE77D1 /* Entities */,
 				B65036601E82A3F800BE77D1 /* Info.plist */,
 			);
 			path = TimeSlowerDataBase;
@@ -80,10 +108,28 @@
 		B65036691E82A3F900BE77D1 /* TimeSlowerDataBaseTests */ = {
 			isa = PBXGroup;
 			children = (
-				B650366A1E82A3F900BE77D1 /* TimeSlowerDataBaseTests.swift */,
+				B650366A1E82A3F900BE77D1 /* BaseCoreDataTest.swift */,
 				B650366C1E82A3F900BE77D1 /* Info.plist */,
 			);
 			path = TimeSlowerDataBaseTests;
+			sourceTree = "<group>";
+		};
+		B650367F1E82A76F00BE77D1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B650367D1E82A56E00BE77D1 /* Activity.swift */,
+				B65036A01E84658800BE77D1 /* ActivityType.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		B65036951E84027D00BE77D1 /* NSManagedObjectContext */ = {
+			isa = PBXGroup;
+			children = (
+				B65036841E82B6DA00BE77D1 /* NSManagedObjectContext+Changes.swift */,
+				B65036911E8401B500BE77D1 /* NSManagedObjectContext+Notifications.swift */,
+			);
+			name = NSManagedObjectContext;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +194,7 @@
 				TargetAttributes = {
 					B650365B1E82A3F800BE77D1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					B65036641E82A3F900BE77D1 = {
@@ -196,6 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B650367E1E82A56E00BE77D1 /* Activity.swift in Sources */,
+				B650368E1E83F50D00BE77D1 /* DataStore.swift in Sources */,
+				B65036901E83FB6600BE77D1 /* ManagedObjectObserver.swift in Sources */,
+				B65036831E82AE3400BE77D1 /* Managed.swift in Sources */,
+				B65036921E8401B500BE77D1 /* NSManagedObjectContext+Notifications.swift in Sources */,
+				B65036781E82A40700BE77D1 /* TimeSlower.xcdatamodeld in Sources */,
+				B65036A11E84658800BE77D1 /* ActivityType.swift in Sources */,
+				B65036941E84025900BE77D1 /* Utilities.swift in Sources */,
+				B65036811E82A78400BE77D1 /* CoreDataStack.swift in Sources */,
+				B65036851E82B6DA00BE77D1 /* NSManagedObjectContext+Changes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B650366B1E82A3F900BE77D1 /* TimeSlowerDataBaseTests.swift in Sources */,
+				B650366B1E82A3F900BE77D1 /* BaseCoreDataTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +377,7 @@
 		B65036711E82A3F900BE77D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oneLastDay.TimeSlowerDataBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +397,7 @@
 		B65036721E82A3F900BE77D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +416,7 @@
 		B65036741E82A3F900BE77D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TimeSlowerDataBaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oneLastDay.TimeSlowerDataBaseTests;
@@ -367,6 +428,7 @@
 		B65036751E82A3F900BE77D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TimeSlowerDataBaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oneLastDay.TimeSlowerDataBaseTests;
@@ -404,6 +466,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B65036761E82A40700BE77D1 /* TimeSlower.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B65036771E82A40700BE77D1 /* TimeSlower.xcdatamodel */,
+			);
+			currentVersion = B65036771E82A40700BE77D1 /* TimeSlower.xcdatamodel */;
+			path = TimeSlower.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B65036531E82A3F800BE77D1 /* Project object */;
 }
